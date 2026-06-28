@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/QRify-✨_QR_Code_Generator-8B5CF6?style=for-the-badge&labelColor=1a1a2e" alt="QRify" />
-</p>
-
-<h1 align="center">🎨 QRify</h1>
-
-<p align="center">
-  <strong>Create stunning, customizable QR codes instantly.</strong>
+  <img src="assets/banner.svg" alt="QRify banner" width="100%" />
 </p>
 
 <p align="center">
@@ -22,52 +16,73 @@
   <img src="https://img.shields.io/badge/PRs-welcome-EC4899?style=flat-square" alt="PRs Welcome" />
 </p>
 
----
+<p align="center">
+  <a href="https://qrmagicstudio.netlify.app/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Try_QRify_Now-8B5CF6?style=for-the-badge&labelColor=1a1a2e" alt="Live Demo" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    <a href="#-features">Features</a> ·
+    <a href="#-quick-start">Quick Start</a> ·
+    <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> ·
+    <a href="#-project-structure">Project Structure</a> ·
+    <a href="#-how-it-works">How It Works</a> ·
+    <a href="#-license">License</a>
+  </sub>
+</p>
 
 <p align="center">
   Transform any link into a beautiful, customizable QR code with modern templates, custom shapes, background styles, logo overlays, and instant multi-format export.
 </p>
 
----
+<div align="center">
+
+⭐ **[qrmagicstudio.netlify.app](https://qrmagicstudio.netlify.app/)** — no install needed, just open and create
+
+</div>
+
+<br/>
 
 ## ✨ Features
 
-<table align="center">
+<table width="100%">
   <tr>
-    <td align="center">⚡</td>
-    <td><strong>Instant Generation</strong><br/>Create QR codes in milliseconds from any URL</td>
+    <td width="60" align="center">⚡</td>
+    <td><strong>Instant Generation</strong><br/><sub>Create QR codes in milliseconds from any URL</sub></td>
   </tr>
   <tr>
     <td align="center">🎨</td>
-    <td><strong>8 Beautiful Templates</strong><br/>Classic Dark, Neon Purple, Ocean Blue, Sunset Glow, Forest Green, Midnight Gold, Pink Dreams, Cyber Tech</td>
+    <td><strong>8 Beautiful Templates</strong><br/><sub>Classic Dark, Neon Purple, Ocean Blue, Sunset Glow, Forest Green, Midnight Gold, Pink Dreams, Cyber Tech</sub></td>
   </tr>
   <tr>
     <td align="center">🔷</td>
-    <td><strong>8 Shape Patterns</strong><br/>Square, Rounded, Dots, Diamond, Star modules with Leaf, Circle, Rounded eye styles</td>
+    <td><strong>8 Shape Patterns</strong><br/><sub>Square, Rounded, Dots, Diamond, Star modules with Leaf, Circle, Rounded eye styles</sub></td>
   </tr>
   <tr>
     <td align="center">🖼️</td>
-    <td><strong>16 Background Templates</strong><br/>Gradients, patterns, and textures — Purple Dream, Polka Dots, Circuit Board, and more</td>
+    <td><strong>16 Background Templates</strong><br/><sub>Gradients, patterns, and textures — Purple Dream, Polka Dots, Circuit Board, and more</sub></td>
   </tr>
   <tr>
     <td align="center">🏷️</td>
-    <td><strong>Logo Upload</strong><br/>Drag & drop your custom logo into the center of the QR code with high error correction</td>
+    <td><strong>Logo Upload</strong><br/><sub>Drag & drop your custom logo into the center of the QR code with high error correction</sub></td>
   </tr>
   <tr>
     <td align="center">📤</td>
-    <td><strong>Multi-Format Export</strong><br/>Download as PNG, JPG, or PDF</td>
+    <td><strong>Multi-Format Export</strong><br/><sub>Download as PNG, JPG, or PDF</sub></td>
   </tr>
   <tr>
     <td align="center">📱</td>
-    <td><strong>QR Scanner</strong><br/>Scan QR codes directly from your browser camera</td>
+    <td><strong>QR Scanner</strong><br/><sub>Scan QR codes directly from your browser camera</sub></td>
   </tr>
   <tr>
     <td align="center">🌙</td>
-    <td><strong>Dark Mode</strong><br/>Gorgeous dark theme with animated gradient backgrounds</td>
+    <td><strong>Dark Mode</strong><br/><sub>Gorgeous dark theme with animated gradient backgrounds</sub></td>
   </tr>
 </table>
 
----
+<br/>
 
 ## 🚀 Quick Start
 
@@ -82,11 +97,13 @@ npm install
 npm run dev
 ```
 
----
+> 💜 Prefer not to install anything? **[Use the live app instead →](https://qrmagicstudio.netlify.app/)**
+
+<br/>
 
 ## 🛠️ Tech Stack
 
-<p align="center">
+<div align="center">
 
 | Technology | Purpose | Category |
 |:---|:---|:---|
@@ -101,9 +118,9 @@ npm run dev
 | **jsPDF** | PDF export | Export |
 | **html5-qrcode** | Camera-based QR scanning | Scanner |
 
-</p>
+</div>
 
----
+<br/>
 
 ## 📁 Project Structure
 
@@ -131,25 +148,30 @@ src/
 └── App.tsx                     # Router & providers
 ```
 
----
+<br/>
 
 ## 🎯 How It Works
 
-<p align="center">
+<div align="center">
 
 ```
   Enter URL  →  Choose Template  →  Customize Shape  →  Add Background  →  Upload Logo  →  Export
      🔗              🎨                  🔷                 🖼️                🏷️             📤
 ```
 
-</p>
+</div>
 
----
+<br/>
 
 ## 📄 License
 
 <p align="center">
   This project is licensed under the <a href="./LICENSE">MIT License</a> © QRify
+</p>
+
+<p align="center">
+  <a href="https://qrmagicstudio.netlify.app/"><strong>🚀 Live Demo</strong></a> ·
+  <a href="https://github.com/vishal-git-dot/qr-magic-studio">GitHub</a>
 </p>
 
 <p align="center">
