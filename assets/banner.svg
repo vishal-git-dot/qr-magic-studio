@@ -1,0 +1,74 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0b21"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#1f1538"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="moduleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="280" fill="url(#bgGrad)"/>
+
+  <!-- ambient glows -->
+  <circle cx="150" cy="60" r="220" fill="url(#glowPurple)"/>
+  <circle cx="1080" cy="220" r="260" fill="url(#glowPink)"/>
+  <circle cx="950" cy="40" r="180" fill="url(#glowCyan)"/>
+
+  <!-- faint dot grid texture -->
+  <g opacity="0.18">
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff"/>
+    </pattern>
+    <rect width="1200" height="280" fill="url(#dots)"/>
+  </g>
+
+  <!-- decorative QR finder-pattern mark (right side) -->
+  <g transform="translate(978, 56)">
+    <rect x="0" y="0" width="168" height="168" rx="22" fill="#ffffff" opacity="0.04"/>
+    <!-- outer finder ring -->
+    <rect x="14" y="14" width="140" height="140" rx="14" fill="none" stroke="url(#moduleGrad)" stroke-width="14"/>
+    <!-- inner finder square -->
+    <rect x="54" y="54" width="60" height="60" rx="8" fill="url(#moduleGrad)"/>
+    <!-- scattered modules echoing QR data cells -->
+    <rect x="14" y="172" width="22" height="22" rx="5" fill="#06B6D4" opacity="0.85"/>
+    <rect x="46" y="172" width="22" height="22" rx="5" fill="#8B5CF6" opacity="0.55"/>
+    <rect x="132" y="172" width="22" height="22" rx="5" fill="#EC4899" opacity="0.7"/>
+    <rect x="172" y="14" width="22" height="22" rx="5" fill="#8B5CF6" opacity="0.6"/>
+    <rect x="172" y="46" width="22" height="22" rx="5" fill="#06B6D4" opacity="0.4"/>
+    <rect x="172" y="132" width="22" height="22" rx="5" fill="#EC4899" opacity="0.55"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="90" y="92" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4" fill="#A78BFA" opacity="0.85">QR CODE GENERATOR</text>
+
+  <!-- wordmark -->
+  <text x="88" y="170" font-family="Verdana, Helvetica, Arial, sans-serif" font-size="84" font-weight="bold" fill="url(#textGrad)">QRify</text>
+
+  <!-- tagline -->
+  <text x="90" y="212" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#E5E7EB" opacity="0.85">Create stunning, customizable QR codes instantly.</text>
+
+  <!-- thin accent rule -->
+  <rect x="90" y="232" width="120" height="4" rx="2" fill="url(#moduleGrad)"/>
+</svg>
